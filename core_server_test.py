@@ -1,6 +1,6 @@
 __author__ = 'ganesh'
 
-from flask import Flask , jsonify , make_response, abort
+from flask import *
 app = Flask(__name__)
 
 
@@ -49,19 +49,19 @@ def get_sensor(s_id):
         abort(404)
     return jsonify( { 'sensorlog': sensor_id[0] } )
 
-@app.route('/microsense/api/v0.1/sensors/<int:s_id>', methods = ['POST'])
-def create_sensor_entry(s_id):
+@app.route('/microsense/api/v0.1/sensors', methods = ['POST'])
+def create_sensor_entry():
     if not request.json or not 'sid' in request.json:
         abort(400)
     sensor = {
         'sid' : request.json['sid'],
-        'pid' : request.json['pid'],
-        'p_name' : request.json['p_name'],
-        's_name' :request.json['s_name'],
-        'p_desc' :request.json['p_desc'],
-        's_desc' :request.json['s_desc'],
-        's_live' :request.json['s_live'],
-        's_data' :request.json['s_data']
+        # 'pid' : request.json['pid'],
+        # 'p_name' : request.json['p_name'],
+        # 's_name' :request.json['s_name'],
+        # 'p_desc' :request.json['p_desc'],
+        # 's_desc' :request.json['s_desc'],
+        # 's_live' :request.json['s_live'],
+        # 's_data' :request.json['s_data']
     }
     sensors.append(sensor)
     return jsonify({'all_sensors':sensors})
