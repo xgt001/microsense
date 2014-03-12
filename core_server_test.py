@@ -1,9 +1,13 @@
 __author__ = 'ganesh'
 
 from flask import *
+from flask import Flask, render_template
+
 app = Flask(__name__)
+ 
+app.config['SECRET_KEY'] = 'secret!'
 
-
+# dummy sensor example here 
 sensors = [
        {
         'sid': 001,
@@ -41,13 +45,26 @@ def not_found(error):
 def not_found(error):
     return make_response(jsonify( { 'error': 'Invalid Entry!' } ), 400)
 
-
 @app.route('/microsense/api/v0.1/sensors/<int:s_id>', methods = ['GET'])
 def get_sensor(s_id):
     sensor_id = filter(lambda s:s['sid'] == s_id, sensors)
     if len(sensor_id) == 0:
         abort(404)
     return jsonify( { 'sensorlog': sensor_id[0] } )
+
+@app.route('/microsense/api/v0.1/sensors/<int:s_id>', methods = ['PUT'])
+def update_sensor(s_id):
+    sensor_id = filter(lambda s:s['sid'] == s_id, sensors)
+    return "wip"
+
+
+@app.route('/microsense/api/v0.1/sensors/<int:s_id>', methods = ['DELETE'])
+def remove_sensor(s_id):
+    sensor = filter(lambda s:s['sid'] == s_id, sensors)
+    if len(sensor_id) == 0:
+        abort(404)
+    sensors.remove(s_id)
+    return jsonify( { 'sensorlog': sensors } )
 
 @app.route('/microsense/api/v0.1/sensors', methods = ['POST'])
 def create_sensor_entry():

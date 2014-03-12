@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06f06824-befa-45f2-a37e-27e6e75ac9f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core_server_test.py" afterPath="$PROJECT_DIR$/core_server_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Envyron.iws" />
@@ -31,16 +29,21 @@
       <file leaf-file-name="core_server_test.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core_server_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="54" selection-start="595" selection-end="595" vertical-scroll-proportion="0.576" vertical-offset="0" max-vertical-offset="1476">
-              <folding />
+            <state line="10" column="1" selection-start="157" selection-end="157" vertical-scroll-proportion="0.24423338" vertical-offset="0" max-vertical-offset="1638">
+              <folding>
+                <element signature="e#23#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Readme.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="12" selection-start="926" selection-end="926" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="648">
+            <state line="30" column="12" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="648">
               <folding />
             </state>
           </provider>
@@ -62,8 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/core_server_test.py" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/core_server_test.py" />
       </list>
     </option>
   </component>
@@ -87,7 +90,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -98,12 +101,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Edhitha" />
@@ -292,6 +290,11 @@
       <created>1392212555862</created>
       <updated>1392212555862</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated some documentation">
+      <created>1392215080315</created>
+      <updated>1392215080315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -306,7 +309,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5171256" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42444593" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
@@ -323,6 +326,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="updated some documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated some documentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -330,8 +335,99 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/core_server_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
+        <state line="14" column="8" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="1638">
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="648">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_server_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="888" max-vertical-offset="1638">
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_server_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1476">
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_server_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="54" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1476">
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_server_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="54" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1476">
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_server_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -343,16 +439,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="12" selection-start="926" selection-end="926" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="648">
+        <state line="30" column="12" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="648">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core_server_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="54" selection-start="595" selection-end="595" vertical-scroll-proportion="0.576" vertical-offset="0" max-vertical-offset="1476">
-          <folding />
+        <state line="10" column="1" selection-start="157" selection-end="157" vertical-scroll-proportion="0.24423338" vertical-offset="0" max-vertical-offset="1638">
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
