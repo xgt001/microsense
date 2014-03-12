@@ -17,7 +17,7 @@ Note that currently this infra is using JSON, however, after the maturing of the
     pid : Platform ID
     p_name : Platform Name
     s_name: Sensor Name
-    p_desc: Sensor description
+    p_desc: Platform description
     s_desc: Sensor description
     s_data: Actual sensor data
     s_live: Boolean value if the data is live or not. In this case need to stream it.
