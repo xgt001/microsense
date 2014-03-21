@@ -10,6 +10,10 @@ Note that currently this infra is using JSON, however, after the maturing of the
     *GET
     *POST
 
+##Frontend Technology Stack:
+        *Semantic-Ui 
+        *KnockoutJS
+
 ##API
 *Still super early. Early sketch of the API.*
 
