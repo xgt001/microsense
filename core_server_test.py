@@ -2,7 +2,8 @@ __author__ = 'ganesh'
 
 from flask import *
 from flask import Flask, render_template
-
+import socket
+import time
 app = Flask(__name__)
  
 app.config['SECRET_KEY'] = 'secret!'
@@ -32,7 +33,25 @@ sensors = [
 
     }
 ]
-#
+
+
+server_stream = ''
+
+def socket_launcher():
+    s = socket.socket()         # Create a socket object
+    host = '192.168.0.103'       # Get local machine name
+    port = 4000                # Reserve a port for your service.
+    s.connect((host, port))
+    while 1:
+        streamer = s.recv(1024)
+        if not streamer:
+            break
+        print streamer
+        server_stream = streamer
+        time.sleep(3)
+    s.close
+
+
 @app.route('/microsense/api/v0.1/sensors',methods = ['GET'] )
 def sensor_fetch_all():
     return jsonify( { 'sensorlog': sensors } )
@@ -87,6 +106,11 @@ def create_sensor_entry():
 @app.route('/')
 def index():
     return "Hello, World!"
+
+@app.route('/socketstream')
+def stream():
+    socket_launcher()
+    return server_stream
 
 if __name__ == "__main__":
     app.debug = True
