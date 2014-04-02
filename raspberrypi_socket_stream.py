@@ -95,7 +95,7 @@ GPIO.output(GPIO_TRIGGER, False)
 # messages
 
 stream, attr = s.accept()
-ury:
+try:
 
   while True:
 
