@@ -22,6 +22,18 @@
   color: #555555;
   min-width: 320px;
 }
+
+	/* manual CSS fixes  */
+.sidebarFix{
+padding-left:25px;
+
+}
+
+.visibilityTrick{
+
+  display: none;
+}
+
 </style>
 <!-- nice font patch , thanks stackoverflow -->
 </head>
@@ -45,33 +57,79 @@
 
 <!-- need to fix icons  -->
 
-<div class="ui red vertical floating demo sidebar menu">
-  <a class="active item">
+<div class="ui red vertical floating demo sidebar menu" id="sfSidebar">
+  <a class="active item" id="about" href="#about_body" onclick="visibility('about')">
     <i class="info letter icon"></i>
     About
   </a>
 
-  <a class="item">
+  <a class="item" href="#platforms_body" id="platforms" onclick="visibility('platforms')">
     <i class="dashboard icon"></i>
     Platforms
   </a>
-  <a class="item">
+  <a class="item" id="sensors" href="#sensors_body" onclick="visibility('sensors')">
     <i class="heart icon"></i>
     Sensors
   </a>
-  <a class="item">
+  <a class="item" href="#network_body" id="network" onclick="visibility('network')">
     <i class="sitemap icon"></i>
     Network
   </a>
-  <a class="item inverted">
+  <a class="item inverted" id="live" href="#live_body" onclick="visibility('live')">
     <i class="cloud upload icon"></i>
      Live Data 
   </a>
-  <a class="item">
+  <a class="item" id="settings" href="#settings_body" onclick="visibility('settings')">
     <i class="settings icon"></i>
     Configure..
   </a>
 </div>
+ 
+ 
+ 
+ <div class="sidebarFix" id="about_body">
+      <h1> Hello World </h1>
+      <p> A simple Webapp for Microsense webframework </p>
+</div>
+
+<div id="platforms_body" class="visibilityTrick sidebarFix">
+
+  <h2>
+      View Connected Platforms
+  </h2>
+</div>
+
+<div id="sensors_body" class="visibilityTrick sidebarFix">
+
+  <h2>
+       Sensors Information
+  </h2>
+</div>
+
+<div id="network_body" class="visibilityTrick sidebarFix">
+
+  <h2>
+      View Sensor Networks 
+  </h2>
+</div>
+
+
+<div id="live_body" class="visibilityTrick sidebarFix">
+
+  <h2>
+      View Live Data Visualizations
+  </h2>
+</div> 
+ 
+ <div id="settings_body" class="visibilityTrick sidebarFix">
+
+  <h2>
+      Configure Framework 
+  </h2>
+
+ </div>
+ 
+ 
  
   <script src="jquery-1.10.2.min.js"></script>
   <script src="javascript/semantic.js" type="text/javascript">
@@ -81,6 +139,54 @@
   <script type="text/javascript">
   // add a button 
   $('.demo.sidebar').sidebar('toggle');
+
+  function visibility(element)
+  {
+      hideAll();
+
+      switch(element){
+
+      case 'about':
+        document.getElementById("about_body").classList.remove('visibilityTrick');
+        break;
+      case 'platforms':
+        document.getElementById("platforms_body").classList.remove('visibilityTrick');
+        break;
+      case 'sensors':
+        document.getElementById("sensors_body").classList.remove('visibilityTrick');
+        break;
+      case 'network':
+        document.getElementById("network_body").classList.remove('visibilityTrick');
+        break;
+      case 'settings':
+        document.getElementById("settings_body").classList.remove('visibilityTrick');
+        break;
+      case 'live':
+        document.getElementById("live_body").classList.remove('visibilityTrick');
+        break;
+      default:
+        console.log(+element) ;
+        break;
+
+
+
+      }
+
+  }
+
+  function hideAll()
+  {
+
+    document.getElementById('about_body').classList.add('visibilityTrick');
+    document.getElementById('network_body').classList.add('visibilityTrick');
+    document.getElementById('platforms_body').classList.add('visibilityTrick');
+    document.getElementById('sensors_body').classList.add('visibilityTrick');
+    document.getElementById('settings_body').classList.add('visibilityTrick');
+    document.getElementById('live_body').classList.add('visibilityTrick');
+
+  
+  }
+
   </script>     
 
 
