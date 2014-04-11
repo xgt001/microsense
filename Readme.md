@@ -10,9 +10,14 @@ Note that currently this infra is using JSON, however, after the maturing of the
     *GET
     *POST
 
+##Backend Technology Stack:
+* Flask 
+* Sockets.io 
+* Flask Sockets
+    
 ##Frontend Technology Stack:
-        *Semantic-Ui 
-        *KnockoutJS
+        * Semantic-Ui 
+        * KnockoutJS (yet to)
 
 ##API
 *Still super early. Early sketch of the API.*
@@ -31,10 +36,19 @@ Note that currently this infra is using JSON, however, after the maturing of the
     +  curl -i http://127.0.0.1:5000/microsense/api/v0.1/sensors
     +  curl -i http://127.0.0.1:5000/microsense/api/v0.1/sensors/sid
 
-## To be done right now
-    + DELETE
-    + PUT
+##Implemented Platforms at the Moment 
+ Raspberry PI UV Sensor
 
+## ToDO for RBP
+
+ * Data Visualization
+ * Template Integration
+ * WebSocket Stream to Webapp
+
+## Done for RBP
+ * Platform Info
+ * Socket Stream to API server
+ 
 
 ##License
 >BSD License
