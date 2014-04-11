@@ -16,8 +16,8 @@ Note that currently this infra is using JSON, however, after the maturing of the
 * Flask Sockets
     
 ##Frontend Technology Stack:
-        * Semantic-Ui 
-        * KnockoutJS (yet to)
+* Semantic-Ui 
+* KnockoutJS (yet to)
 
 ##API
 *Still super early. Early sketch of the API.*
