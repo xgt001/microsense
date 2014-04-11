@@ -37,7 +37,7 @@ Note that currently this infra is using JSON, however, after the maturing of the
     +  curl -i http://127.0.0.1:5000/microsense/api/v0.1/sensors/sid
 
 ##Implemented Platforms at the Moment 
- Raspberry PI UV Sensor
+ Raspberry PI UltraSonic Sensor
 
 ## ToDO for RBP
 
