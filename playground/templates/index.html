@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Flask-SocketIO Test</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="http:////cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+ 
+</head>
+<body>
+    <h1>Flask-SocketIO Test</h1>
+    <h2>Receive:</h2>
+    <div id="log"></div>
+    
+    
+       <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){
+            var socket = io.connect('http://' + document.domain + ':' + location.port );
+            
+            if (!socket)
+	    {
+	    console.log("socket error");
+	    }
+	    
+            
+            console.log("inside the function");
+            
+            socket.emit('docLoad',"hello server");
+          
+            socket.on('docReply', function(msg) {
+		console.log(msg);
+                $('#log').append('<br>Received ' + msg);
+            });
+           
+       
+            
+        });
+    </script>
+</body>
+</html>
