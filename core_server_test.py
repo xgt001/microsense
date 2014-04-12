@@ -7,6 +7,7 @@ from flask import *
 from flask import Flask, render_template
 import socket
 import time
+from threading import Thread
 from flask.ext.socketio import SocketIO, emit
 
 app = Flask(__name__)
@@ -41,22 +42,26 @@ sensors = [
 ]
 
 
-server_stream = ''
+streamer = 0
 
 def socket_launcher():
     s = socket.socket()         # Create a socket object
     host = '192.168.0.103'       # Get local machine name
     port = 4000                # Reserve a port for your service.
     s.connect((host, port))
-    while 1:
+    count = 0
+    while True:
+        global streamer
         streamer = s.recv(1024)
         if not streamer:
             break
+        count += 1
+        socketio.emit('putStream',
+                      {'data': 'Data ' + streamer, 'count': count})
         # print streamer
-        server_stream = streamer
-        time.sleep(3)
+        # s.send(streamer)
+        time.sleep(1)
     s.close
-
 
 @app.route('/microsense/api/v0.1/sensors',methods = ['GET'] )
 def sensor_fetch_all():
@@ -109,81 +114,21 @@ def create_sensor_entry():
     return jsonify({'all_sensors':sensors})
 
 
-#
-# @app.route('/socketstream')
-# def api():
-#     socket_launcher()
-#     if request.environ.get('wsgi.websocket'):
-#         ws = request.environ['wsgi.websocket']
-#     while True:
-#         message = ws.wait()
-#     ws.send(server_stream)
-#     print  server_stream
-#     return
-
-# @app.route('/')
-# def index():
-#     return "Hello World"
-
-# @app.route('/foo/<path:filename>')
-# @app.route('/index.html')
-# def render_home(filename):
-#     return send_from_directory('/template/', filename)
-
-
-
-
 @app.route('/')
 def index():
     return render_template('index.html')
 
-@socketio.on('connect', namespace='/api')
-def test_connect():
-    emit('my response', {'data': 'Connected'})
-
 @socketio.on('connectStream')
-def start_stream():
-    socket_launcher()
-    print "stream was started"
-
-@socketio.on('startStream',namespace='/test')
-def send_sensor_data(message=server_stream):
-    socket_launcher()
-    send(message)
-
-
-@socketio.on('connect', namespace='/test')
-def test_connect():
-    print "stream connect check"
-
-@socketio.on('disconnect', namespace='/test')
-def test_disconnect():
-    print('Client disconnected')
+def startStream(message):
+    # socket_launcher()
+    # emit('streamData',streamer)
+    # print streamer
+    print message
 
 
 if __name__ == '__main__':
+    Thread(target=socket_launcher).start()
+    # socket_launcher()
     socketio.run(app)
 
 
-
-
-
-
-
-
-
-#
-#
-# if __name__ == '__main__':
-#     http_server = WSGIServer(('127.0.0.1',5000), app, handler_class=WebSocketHandler)
-#     http_server.serve_forever()
-
-
-# @app.route('/socketstream')
-# def stream():
-#     socket_launcher()
-#     return server_stream
-#
-# if __name__ == "__main__":
-#     app.debug = True
-#     app.run()

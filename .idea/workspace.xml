@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06f06824-befa-45f2-a37e-27e6e75ac9f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sysinfo_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core_server_test.py" afterPath="$PROJECT_DIR$/core_server_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Frontend/dev_ui/first_page.html" afterPath="$PROJECT_DIR$/Frontend/dev_ui/first_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_bench.py" afterPath="$PROJECT_DIR$/test_bench.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/socket_test.py" afterPath="$PROJECT_DIR$/socket_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Envyron.iws" />
@@ -33,11 +31,11 @@
       <file leaf-file-name="core_server_test.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core_server_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="0" selection-start="3749" selection-end="3749" vertical-scroll-proportion="1.3891892" vertical-offset="1096" max-vertical-offset="3078">
+            <state line="59" column="49" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.7810811" vertical-offset="484" max-vertical-offset="2520">
               <folding>
                 <element signature="e#24#76#0" expanded="true" />
-                <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-                <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+                <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+                <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -55,15 +53,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_bench.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_bench.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="40" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="raspberrypi_socket_stream.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/raspberrypi_socket_stream.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,7 +65,7 @@
       <file leaf-file-name="Readme.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="12" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="828">
+            <state line="45" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -95,7 +84,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/sysinfo_test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/core_server_test.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_bench.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -418,7 +406,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1606" height="865" extended-state="7" />
+    <frame x="-3" y="0" width="1606" height="865" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -429,7 +417,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42375" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42375" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -465,8 +453,8 @@
         <state line="117" column="24" selection-start="3241" selection-end="3241" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2592">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-            <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -478,13 +466,6 @@
             <marker date="1397030025069" expanded="true" signature="22:53" placeholder="import ..." />
             <marker date="1397030025069" expanded="true" signature="75:415" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_bench.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="31" selection-start="234" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="486">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,8 +488,8 @@
         <state line="4" column="36" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2304">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-            <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -525,8 +506,8 @@
         <state line="10" column="1" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1845">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-            <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -543,8 +524,8 @@
         <state line="14" column="8" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="1638">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-            <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -561,8 +542,8 @@
         <state line="14" column="8" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="888" max-vertical-offset="1638">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-            <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -579,8 +560,8 @@
         <state line="2" column="19" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1476">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-            <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -597,8 +578,8 @@
         <state line="24" column="54" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1476">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-            <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -615,8 +596,8 @@
         <state line="24" column="54" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1476">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-            <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -633,8 +614,8 @@
         <state line="9" column="18" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-            <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -648,7 +629,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="12" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="828">
+        <state line="45" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
@@ -670,20 +651,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_bench.py">
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/gevent/socket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="341" column="0" selection-start="11970" selection-end="11970" vertical-scroll-proportion="0.33287483" vertical-offset="5896" max-vertical-offset="12150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core_server_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="0" selection-start="3749" selection-end="3749" vertical-scroll-proportion="1.3891892" vertical-offset="1096" max-vertical-offset="3078">
+        <state line="59" column="49" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.7810811" vertical-offset="484" max-vertical-offset="2520">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397226810257" expanded="false" signature="334:944" placeholder="..." />
-            <marker date="1397226810257" expanded="true" signature="1379:3066" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
+            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
