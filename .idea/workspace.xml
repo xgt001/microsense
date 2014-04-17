@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06f06824-befa-45f2-a37e-27e6e75ac9f8" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\css\semantic.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\css\semantic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\first_page.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\fonts\basic.icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\fonts\basic.icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\fonts\basic.icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\fonts\basic.icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\fonts\icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\fonts\icons.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\fonts\icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\fonts\icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\fonts\icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\form.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\images\loader-large-inverted.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\images\loader-large.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\images\loader-medium-inverted.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\images\loader-medium.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\images\loader-mini-inverted.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\images\loader-mini.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\images\loader-small-inverted.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\images\loader-small.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\javascript\semantic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\javascript\semantic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\Frontend\dev_ui\jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ganesh\Desktop\microsense\templates\index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Envyron.iml" afterPath="$PROJECT_DIR$/.idea/Envyron.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core_server_test.py" afterPath="$PROJECT_DIR$/core_server_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/socket_test.py" afterPath="$PROJECT_DIR$/socket_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Envyron.iws" />
@@ -16,6 +41,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Envyron$core_server_test.coverage" NAME="core_server_test Coverage Results" MODIFIED="1397765221280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Envyron$test_server.coverage" NAME="test_server Coverage Results" MODIFIED="1397748124407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -31,12 +60,19 @@
       <file leaf-file-name="core_server_test.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core_server_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="49" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.7810811" vertical-offset="484" max-vertical-offset="2520">
+            <state line="119" column="20" selection-start="3381" selection-end="3381" vertical-scroll-proportion="3.4853556" vertical-offset="0" max-vertical-offset="2919">
               <folding>
                 <element signature="e#24#76#0" expanded="true" />
-                <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-                <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="first_page.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/first_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="99.69231" vertical-offset="2808" max-vertical-offset="3564">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,11 +80,8 @@
       <file leaf-file-name="sysinfo_test.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sysinfo_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="51" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="360">
-              <folding>
-                <marker date="1397030025069" expanded="true" signature="22:53" placeholder="import ..." />
-                <marker date="1397030025069" expanded="true" signature="75:415" placeholder="..." />
-              </folding>
+            <state line="6" column="51" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="340">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,7 +89,7 @@
       <file leaf-file-name="raspberrypi_socket_stream.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/raspberrypi_socket_stream.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2106">
+            <state line="10" column="21" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1989">
               <folding />
             </state>
           </provider>
@@ -65,7 +98,7 @@
       <file leaf-file-name="Readme.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1080">
+            <state line="45" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -91,14 +124,17 @@
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/sysinfo_test.py" />
         <option value="$PROJECT_DIR$/test_bench.py" />
+        <option value="$PROJECT_DIR$/test_server.py" />
+        <option value="$PROJECT_DIR$/static/first_page.html" />
         <option value="$PROJECT_DIR$/core_server_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="width" value="1606" />
-    <option name="height" value="865" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -166,6 +202,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Envyron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microsense" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -173,12 +223,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/uav_msr_ip14" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="options.lastSelected" value="editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -198,6 +249,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core_server_test.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -216,6 +268,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sysinfo_test.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -234,10 +287,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_bench.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_server.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -250,6 +343,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -274,6 +368,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -297,6 +392,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <method />
@@ -311,6 +407,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -323,6 +420,9 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,6 +433,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -352,6 +453,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Envyron" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -361,16 +463,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.core_server_test" />
       <item index="1" class="java.lang.String" itemvalue="Python.sysinfo_test" />
       <item index="2" class="java.lang.String" itemvalue="Python.test_bench" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_server" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.core_server_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_bench" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sysinfo_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_server" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_bench" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sysinfo_test" />
       </list>
     </recent_temporary>
   </component>
@@ -406,27 +510,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1606" height="865" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42375" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.485" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -450,11 +555,99 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/core_server_test.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="21" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="2380">
+          <folding>
+            <element signature="e#24#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysinfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspberrypi_socket_stream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_server_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="21" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="2380">
+          <folding>
+            <element signature="e#24#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysinfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspberrypi_socket_stream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_server_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="49" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2380">
+          <folding>
+            <element signature="e#24#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sysinfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspberrypi_socket_stream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_server_test.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="24" selection-start="3241" selection-end="3241" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2592">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -462,10 +655,7 @@
     <entry file="file://$PROJECT_DIR$/sysinfo_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="51" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="360">
-          <folding>
-            <marker date="1397030025069" expanded="true" signature="22:53" placeholder="import ..." />
-            <marker date="1397030025069" expanded="true" signature="75:415" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -488,8 +678,6 @@
         <state line="4" column="36" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2304">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -506,8 +694,6 @@
         <state line="10" column="1" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1845">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -524,8 +710,6 @@
         <state line="14" column="8" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="1638">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -542,8 +726,6 @@
         <state line="14" column="8" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="888" max-vertical-offset="1638">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -560,8 +742,6 @@
         <state line="2" column="19" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1476">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -578,8 +758,6 @@
         <state line="24" column="54" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1476">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -596,8 +774,6 @@
         <state line="24" column="54" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1476">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -614,8 +790,6 @@
         <state line="9" column="18" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -634,37 +808,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspberrypi_socket_stream.py">
+    <entry file="file://$PROJECT_DIR$/sysinfo_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2070">
+        <state line="6" column="51" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sysinfo_test.py">
+    <entry file="file://$PROJECT_DIR$/raspberrypi_socket_stream.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <marker date="1397030025069" expanded="true" signature="22:53" placeholder="import ..." />
-            <marker date="1397030025069" expanded="true" signature="75:415" placeholder="..." />
-          </folding>
+        <state line="10" column="21" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1989">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/gevent/socket.py">
+    <entry file="file://$PROJECT_DIR$/static/first_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="341" column="0" selection-start="11970" selection-end="11970" vertical-scroll-proportion="0.33287483" vertical-offset="5896" max-vertical-offset="12150">
+        <state line="12" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="99.69231" vertical-offset="2808" max-vertical-offset="3564">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core_server_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="49" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.7810811" vertical-offset="484" max-vertical-offset="2520">
+        <state line="119" column="20" selection-start="3381" selection-end="3381" vertical-scroll-proportion="3.4853556" vertical-offset="0" max-vertical-offset="2919">
           <folding>
             <element signature="e#24#76#0" expanded="true" />
-            <marker date="1397292883185" expanded="true" signature="363:973" placeholder="..." />
-            <marker date="1397292883185" expanded="true" signature="1559:3245" placeholder="..." />
           </folding>
         </state>
       </provider>

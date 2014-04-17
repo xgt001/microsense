@@ -113,11 +113,6 @@ def create_sensor_entry():
     sensors.append(sensor)
     return jsonify({'all_sensors':sensors})
 
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
 @socketio.on('connectStream')
 def startStream(message):
     # socket_launcher()
@@ -125,6 +120,10 @@ def startStream(message):
     # print streamer
     print message
 
+
+@app.route('/')
+def index():
+    return render_template('first_page.html')
 
 if __name__ == '__main__':
     Thread(target=socket_launcher).start()
