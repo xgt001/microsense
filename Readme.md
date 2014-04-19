@@ -42,12 +42,12 @@ Note that currently this infra is using JSON, however, after the maturing of the
 ## ToDO for RBP
 
  * Data Visualization
- * Template Integration
- * WebSocket Stream to Webapp
 
 ## Done for RBP
  * Platform Info
  * Socket Stream to API server
+ * Template Integration
+ * WebSocket Stream to Webapp
  
 
 ##License

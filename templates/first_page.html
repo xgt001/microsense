@@ -7,6 +7,8 @@
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="http:////cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+    <script type="text/javascript" src="/static/javascript/d3.v3.js"></script>
+
   
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
   <link href="/static/css/semantic.css" rel="stylesheet" type="text/css" />
@@ -36,18 +38,34 @@ padding-left:25px;
   display: none;
 }
 
+svg {
+  font: 10px sans-serif;
+}
+ 
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+ 
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+ 
+
 </style>
 <!-- nice font patch , thanks stackoverflow -->
 </head>
 <body>
 
-
-
 <div id="headbar" class="ui green inverted main menu" >
   <a class="active item">
     <!-- <i class="home icon"></i>  -->Microsense Framework
   </a>
-
+<!-- 
   <div class="right menu">
     <div class="item">
 
@@ -55,7 +73,7 @@ padding-left:25px;
     Logout
     </div>
     </div>
-  </div>
+  </div> -->
 
 </div>
 
@@ -73,11 +91,11 @@ padding-left:25px;
   </a>
   <a class="item" id="sensors" href="#sensors_body" onclick="visibility('sensors')">
     <i class="heart icon"></i>
-    Sensors
+    Data Viz
   </a>
   <a class="item" href="#network_body" id="network" onclick="visibility('network')">
     <i class="sitemap icon"></i>
-    Network
+    Social Share
   </a>
   <a class="item inverted" id="live" href="#live_body" onclick="visibility('live')">
     <i class="cloud upload icon"></i>
@@ -92,8 +110,12 @@ padding-left:25px;
  
  
  <div class="sidebarFix" id="about_body">
-      <h2> Hello World </h2>
+      <h2> What's Microsense? </h2>
       <p> A simple Webapp for Microsense webframework </p>
+
+      <h2> Goal </h2>
+      <p> To provide a clean API, data visualizations and social connect for sensor data from IOT Platforms </p>
+
 </div>
 
 <div id="platforms_body" class="visibilityTrick sidebarFix">
@@ -106,22 +128,35 @@ padding-left:25px;
 <div id="sensors_body" class="visibilityTrick sidebarFix">
 
   <h2>
-       Sensors Information
+       Real Time Data Visualization 
   </h2>
+
+  <p> Get a bar graph of data from last five seconds </p>
+  <br>
+  <div class="ui hover button" onClick="plotter()"> Plot Graph</div>
 </div>
 
 <div id="network_body" class="visibilityTrick sidebarFix">
 
   <h2>
-      View Sensor Networks 
+      Social Share
   </h2>
+  <p> Share live data and visualization on social media </p>
+
+<div id="tweetcontainer">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="ganeshalpha" data-size="large" data-count="none" data-hashtags="livedata">Tweet</a>
+    
+</div>
+
+
+
 </div>
 
 
 <div id="live_body" class="visibilityTrick sidebarFix">
 
   <h2>
-      View Live Data Visualizations
+      View Live Data
   </h2>
   <div id="log">
 
@@ -137,33 +172,7 @@ padding-left:25px;
  </div>
  
  
-<script type="text/javascript" charset="utf-8">
-        $(document).ready(function(){
-            // var socket = io.connect('http://' + document.domain + ':' + location.port + '/test');
-        var socket = io.connect('http://' + document.domain + ':' + location.port);
 
-        socket.emit('connectStream',"hello server");
-           
-      console.log("Starting connection");
-
-      socket.on('putStream',function(msg)
-
-      {
-
-        $('#log').append('<br>Received #' + msg.count + ': ' + msg.data);
-      } );
-      
-
-      // socket.on('streamData',function(msg){
-
-     //    $('#log').append('<p>Received: ' + msg + '</p>');
-
-      // console.log(""+msg);
-
-     //    });
-
-      });
-    </script>
 
 
 
@@ -177,6 +186,34 @@ padding-left:25px;
   <script type="text/javascript">
   // add a button 
   $('.demo.sidebar').sidebar('toggle');
+  var live_data;
+
+        $(document).ready(function(){
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+        socket.emit('connectStream',"hello server");
+           
+      console.log("Starting connection");
+
+      socket.on('putStream',function(msg)
+
+      {
+
+        $('#log').append('<br>Received #' + msg.count + ': ' + msg.data);
+
+          // document.getElementById("tweet-share").style["dataText"]="test value"
+
+
+        live_data = msg.data;
+
+        $("#tweetcontainer a").attr("data-text", "Real Time"+msg.data+"from ultrasonic Sensor");
+      } );
+    
+
+      });
+
+
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
   function visibility(element)
   {
@@ -222,6 +259,87 @@ padding-left:25px;
 
   }
 
+
+
+  function plotter()
+  {
+
+
+    // d3.select("#network_body").style("background-color", "black");
+// 
+    d3.select("#sensors_body").append("p").text("New paragraph!");
+    console.log("Testing D3");
+
+    var n = 40,
+    random = d3.random.normal(0, .2),
+    data = d3.range(n).map(random);
+     
+    var margin = {top: 20, right: 20, bottom: 20, left: 40},
+        width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+     
+    var x = d3.scale.linear()
+        .domain([0, n - 1])
+        .range([0, width]);
+     
+    var y = d3.scale.linear()
+        .domain([-1, 1])
+        .range([height, 0]);
+     
+    var line = d3.svg.line()
+        .x(function(d, i) { return x(i); })
+        .y(function(d, i) { return y(d); });
+     
+    var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+     
+    svg.append("defs").append("clipPath")
+        .attr("id", "clip")
+      .append("rect")
+        .attr("width", width)
+        .attr("height", height);
+     
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + y(0) + ")")
+        .call(d3.svg.axis().scale(x).orient("bottom"));
+     
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(d3.svg.axis().scale(y).orient("left"));
+     
+    var path = svg.append("g")
+        .attr("clip-path", "url(#clip)")
+      .append("path")
+        .datum(data)
+        .attr("class", "line")
+        .attr("d", line);
+     
+    tick();
+     
+    function tick() {
+     
+      // push a new data point onto the back
+      data.push(random());
+     
+      // redraw the line, and slide it to the left
+      path
+          .attr("d", line)
+          .attr("transform", null)
+        .transition()
+          .duration(500)
+          .ease("linear")
+          .attr("transform", "translate(" + x(-1) + ",0)")
+          .each("end", tick);
+     
+      // pop the old data point off the front
+      data.shift();
+     
+}
+  }
   </script>     
 
 
