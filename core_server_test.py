@@ -46,7 +46,7 @@ streamer = 0
 
 def socket_launcher():
     s = socket.socket()         # Create a socket object
-    host = '192.168.0.103'       # Get local machine name
+    host = '192.168.0.103'    # Get local machine name, should be changed when deployed on laptop!
     port = 4000                # Reserve a port for your service.
     s.connect((host, port))
     count = 0
@@ -57,7 +57,7 @@ def socket_launcher():
             break
         count += 1
         socketio.emit('putStream',
-                      {'data': 'Data ' + streamer, 'count': count})
+                      {'data': streamer, 'count': count})
         # print streamer
         # s.send(streamer)
         time.sleep(1)

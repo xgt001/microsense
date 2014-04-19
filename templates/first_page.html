@@ -55,7 +55,18 @@ svg {
   shape-rendering: crispEdges;
 }
  
+#log 
+{
+  height: 400px;
+  width: 400px;
+  overflow: auto;
+  white-space: nowrap;
+}
 
+.datapoints
+{
+  height: 200px;
+}
 </style>
 <!-- nice font patch , thanks stackoverflow -->
 </head>
@@ -146,21 +157,47 @@ svg {
 <div id="tweetcontainer">
   <a href="https://twitter.com/share" class="twitter-share-button" data-via="ganeshalpha" data-size="large" data-count="none" data-hashtags="livedata">Tweet</a>
     
-</div>
-
-
-
-</div>
+</div> </div>
 
 
 <div id="live_body" class="visibilityTrick sidebarFix">
 
-  <h2>
-      View Live Data
-  </h2>
-  <div id="log">
 
-  </div
+
+  <div class="ui two column page grid">
+      <div class="column">
+        <h2>
+          View Live Data
+      </h2>
+        <div class="ui green segment">
+            <div class="ui top left attached label">Stream</div>
+                <div id="log">
+                </div>
+
+        </div>
+
+      </div>
+
+      <div class="column">
+
+      <h2>
+        Data Points  
+      </h2>
+        <div class="ui green segment datapoints" >
+              <div class="ui top left attached label">Maxima</div>
+              <div id="maxima">
+              </div>
+
+        </div>
+
+        <div class="ui green segment datapoints" >
+              <div class="ui top left attached label">Minima</div>          
+              <div id="minima">
+              </div>
+        </div>
+      </div>
+
+  </div>
 </div> 
  
  <div id="settings_body" class="visibilityTrick sidebarFix">
@@ -188,6 +225,11 @@ svg {
   $('.demo.sidebar').sidebar('toggle');
   var live_data;
 
+  var maxima = 0;
+
+  var minima = 4000;
+
+
         $(document).ready(function(){
         var socket = io.connect('http://' + document.domain + ':' + location.port);
 
@@ -198,15 +240,30 @@ svg {
       socket.on('putStream',function(msg)
 
       {
+        live_data = Number((parseFloat(msg.data)).toFixed(2)); 
 
-        $('#log').append('<br>Received #' + msg.count + ': ' + msg.data);
+
+
+        $('#log').prepend('<br>Received #' + msg.count + ': ' + live_data);
 
           // document.getElementById("tweet-share").style["dataText"]="test value"
 
+        if(live_data>maxima)
+          maxima= live_data;
 
-        live_data = msg.data;
+        if(live_data<minima)
+          minima = live_data;
 
-        $("#tweetcontainer a").attr("data-text", "Real Time"+msg.data+"from ultrasonic Sensor");
+
+        $("#tweetcontainer a").attr("data-text", "Real Time"+Math.round(msg.data)+"from ultrasonic Sensor");
+
+        $("#maxima").text(maxima);
+
+        $("#minima").text(minima);
+
+
+
+
       } );
     
 
