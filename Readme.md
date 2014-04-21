@@ -12,12 +12,14 @@ Note that currently this infra is using JSON, however, after the maturing of the
 
 ##Backend Technology Stack:
 * Flask 
-* Sockets.io 
+* Sockets.io for browser integration
 * Flask Sockets
+* Python Sockets for Platform to server stream 
     
 ##Frontend Technology Stack:
-* Semantic-Ui 
-* KnockoutJS (yet to)
+* Semantic-Ui GUI framework
+* d3.js realtime visualization
+* jquery for event binding
 
 ##API
 *Still super early. Early sketch of the API.*
