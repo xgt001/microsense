@@ -43,13 +43,15 @@ Note that currently this infra is using JSON, however, after the maturing of the
 
 ## ToDO for RBP
 
- * Data Visualization
+ * Static Graphs
+ * Social Integration Bug Fixes
 
 ## Done for RBP
  * Platform Info
  * Socket Stream to API server
  * Template Integration
  * WebSocket Stream to Webapp
+ * Live Data Visualization
  
 
 ##License
